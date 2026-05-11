@@ -15,6 +15,10 @@ The dashboard helps monitor:
 - Collection efficiency
 - High-risk customer segments
 
+## Business Problem
+
+Financial institutions need real-time visibility into customer repayment behavior, delinquency trends, and collection efficiency to reduce credit risk and improve recovery performance.
+
 ## Tools Used
 - Python
 - Pandas
@@ -55,3 +59,27 @@ credit-card-risk-analytics/
 - SQL database integration
 - Real-time dashboard refresh
 - Predictive risk scoring
+
+## Dashboard Preview
+
+### Executive Dashboard
+![Executive Dashboard](dashboard/screenshots/executive_dashboard.png)
+
+### Risk Monitoring Dashboard
+![Risk Monitoring](dashboard/screenshots/risk_monitoring_dashboard.png)
+
+### Collection Dashboard
+![Collection Dashboard](dashboard/screenshots/collection_dashboard.png)
+
+## Key Insights
+
+- Majority of customers fall under the 0-30 DPD bucket
+- Bounce rates increase significantly for high-risk customers
+- Collection efficiency is lower for customers with repeated payment failures
+- Risk segmentation helps prioritize recovery actions
+
+
+## Author
+
+Juhi Nakhale  
+Data Analyst | Power BI | Fintech Analytics
