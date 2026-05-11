@@ -1,0 +1,501 @@
+Customer_ID,Segment,City,Credit_Limit,Outstanding_Amount,Amount_Paid,Repayment_Rate_%,Days_Past_Due,DPD_Bucket,Due_Date,Payment_Status,Risk_Category
+CUST0001,Business,Mumbai,25000,3062.74,842.34,27.5,0,Current,2024-11-23,Pending,High
+CUST0002,Salaried,Hyderabad,25000,15786.08,501.72,3.2,0,Current,2024-10-06,Pending,Low
+CUST0003,Self-Employed,Hyderabad,50000,37220.88,26103.93,70.1,0,Current,2024-10-14,Cleared,Low
+CUST0004,Self-Employed,Mumbai,200000,96070.59,26695.26,27.8,0,Current,2024-03-22,Bounced,Medium
+CUST0005,Business,Bangalore,75000,64705.87,39064.62,60.4,15,1-30 DPD,2024-02-19,Pending,Low
+CUST0006,Self-Employed,Hyderabad,25000,14920.91,12375.47,82.9,0,Current,2024-07-12,Bounced,High
+CUST0007,Salaried,Ahmedabad,25000,17378.42,13434.71,77.3,90,60+ DPD,2024-02-05,Bounced,Medium
+CUST0008,Salaried,Chennai,100000,67211.6,24520.95,36.5,0,Current,2024-05-22,Cleared,High
+CUST0009,Salaried,Pune,200000,32852.45,20860.59,63.5,0,Current,2024-12-15,Cleared,Medium
+CUST0010,Salaried,Pune,200000,143869.15,31595.85,22.0,0,Current,2024-05-18,Bounced,Medium
+CUST0011,Business,Delhi,75000,11967.73,10928.17,91.3,0,Current,2024-07-24,Bounced,High
+CUST0012,Salaried,Pune,100000,89621.48,57613.34,64.3,0,Current,2024-09-12,Pending,High
+CUST0013,Self-Employed,Pune,75000,57923.43,24816.36,42.8,0,Current,2024-10-02,Bounced,High
+CUST0014,Salaried,Ahmedabad,25000,19505.1,16795.9,86.1,0,Current,2024-09-09,Pending,Medium
+CUST0015,Self-Employed,Hyderabad,25000,11157.26,6648.48,59.6,0,Current,2024-11-01,Bounced,High
+CUST0016,Self-Employed,Mumbai,200000,179261.92,134603.8,75.1,15,1-30 DPD,2024-02-28,Cleared,Medium
+CUST0017,Business,Ahmedabad,100000,10292.08,7431.83,72.2,15,1-30 DPD,2024-03-21,Bounced,High
+CUST0018,Salaried,Delhi,200000,73720.06,47103.4,63.9,0,Current,2024-02-24,Bounced,High
+CUST0019,Self-Employed,Ahmedabad,25000,15976.25,7806.09,48.9,0,Current,2024-09-28,Cleared,Low
+CUST0020,Self-Employed,Ahmedabad,50000,44510.43,42149.13,94.7,0,Current,2024-01-30,Bounced,High
+CUST0021,Business,Ahmedabad,50000,34688.79,32845.04,94.7,0,Current,2024-03-05,Pending,Medium
+CUST0022,Self-Employed,Chennai,150000,116960.8,80687.47,69.0,15,1-30 DPD,2024-04-18,Pending,Medium
+CUST0023,Salaried,Hyderabad,150000,75950.63,18828.59,24.8,0,Current,2024-08-12,Pending,Low
+CUST0024,Salaried,Mumbai,50000,5323.59,3768.25,70.8,0,Current,2024-10-28,Cleared,Low
+CUST0025,Business,Hyderabad,50000,17531.48,8510.03,48.5,0,Current,2024-09-20,Pending,Medium
+CUST0026,Self-Employed,Delhi,100000,82674.73,15742.09,19.0,0,Current,2024-05-04,Cleared,Medium
+CUST0027,Salaried,Bangalore,200000,29750.81,19440.83,65.3,0,Current,2024-08-27,Pending,Medium
+CUST0028,Salaried,Delhi,50000,13621.55,7305.04,53.6,0,Current,2024-02-25,Cleared,Low
+CUST0029,Business,Hyderabad,100000,82722.0,70807.29,85.6,0,Current,2024-02-08,Bounced,Low
+CUST0030,Salaried,Pune,50000,23288.63,11210.18,48.1,35,31-60 DPD,2024-05-01,Cleared,Low
+CUST0031,Business,Chennai,75000,70039.97,54990.44,78.5,0,Current,2024-07-18,Pending,High
+CUST0032,Business,Hyderabad,50000,13545.4,2948.85,21.8,0,Current,2024-09-06,Bounced,High
+CUST0033,Business,Pune,25000,3628.2,1729.88,47.7,65,60+ DPD,2024-06-09,Bounced,High
+CUST0034,Self-Employed,Mumbai,50000,8083.46,549.36,6.8,35,31-60 DPD,2024-02-11,Pending,Low
+CUST0035,Business,Hyderabad,150000,20365.12,1669.6,8.2,0,Current,2024-10-23,Cleared,Medium
+CUST0036,Business,Chennai,200000,148914.52,35543.8,23.9,0,Current,2024-04-14,Cleared,Medium
+CUST0037,Salaried,Mumbai,25000,2709.6,1683.09,62.1,0,Current,2024-06-10,Pending,Low
+CUST0038,Salaried,Delhi,75000,16440.82,5737.99,34.9,0,Current,2024-09-16,Cleared,Low
+CUST0039,Business,Hyderabad,150000,109977.89,67271.03,61.2,90,60+ DPD,2024-08-12,Bounced,High
+CUST0040,Self-Employed,Mumbai,75000,70393.53,7291.82,10.4,35,31-60 DPD,2024-10-10,Bounced,High
+CUST0041,Salaried,Chennai,50000,17255.67,10436.74,60.5,15,1-30 DPD,2024-10-10,Pending,Medium
+CUST0042,Business,Bangalore,100000,32600.91,29606.81,90.8,0,Current,2024-09-15,Cleared,Low
+CUST0043,Business,Bangalore,75000,59550.55,37940.45,63.7,0,Current,2024-01-02,Pending,High
+CUST0044,Salaried,Hyderabad,150000,16305.41,1226.88,7.5,35,31-60 DPD,2024-08-06,Bounced,Medium
+CUST0045,Salaried,Delhi,150000,34992.66,4459.66,12.7,0,Current,2024-10-25,Bounced,High
+CUST0046,Self-Employed,Hyderabad,200000,38502.85,30036.7,78.0,35,31-60 DPD,2024-05-07,Pending,Low
+CUST0047,Salaried,Pune,50000,48929.27,39670.47,81.1,35,31-60 DPD,2024-05-01,Pending,Medium
+CUST0048,Business,Mumbai,200000,175531.53,142312.07,81.1,0,Current,2024-07-29,Cleared,Low
+CUST0049,Salaried,Pune,50000,13980.78,12840.67,91.8,0,Current,2024-08-28,Bounced,High
+CUST0050,Self-Employed,Delhi,100000,39543.58,34179.61,86.4,90,60+ DPD,2024-04-08,Pending,High
+CUST0051,Salaried,Delhi,200000,196606.94,105423.73,53.6,65,60+ DPD,2024-07-23,Bounced,High
+CUST0052,Self-Employed,Bangalore,25000,4939.06,2146.34,43.5,15,1-30 DPD,2024-05-15,Pending,High
+CUST0053,Self-Employed,Mumbai,100000,90955.43,17288.7,19.0,0,Current,2024-02-29,Pending,High
+CUST0054,Self-Employed,Mumbai,200000,189247.36,139482.44,73.7,0,Current,2024-12-17,Pending,Medium
+CUST0055,Business,Delhi,75000,52278.65,6515.24,12.5,65,60+ DPD,2024-11-15,Pending,Medium
+CUST0056,Business,Bangalore,100000,72748.76,40332.82,55.4,0,Current,2024-06-16,Pending,High
+CUST0057,Self-Employed,Delhi,150000,91829.21,37289.56,40.6,35,31-60 DPD,2024-03-30,Bounced,Medium
+CUST0058,Salaried,Hyderabad,150000,103385.26,48072.92,46.5,0,Current,2024-10-23,Cleared,High
+CUST0059,Self-Employed,Mumbai,200000,35263.2,18176.49,51.5,0,Current,2024-03-27,Bounced,High
+CUST0060,Self-Employed,Hyderabad,50000,41295.33,6085.03,14.7,0,Current,2024-06-07,Bounced,Medium
+CUST0061,Self-Employed,Pune,200000,123620.76,88802.47,71.8,0,Current,2024-07-31,Bounced,High
+CUST0062,Self-Employed,Pune,25000,22584.85,19432.92,86.0,35,31-60 DPD,2024-12-18,Bounced,High
+CUST0063,Self-Employed,Pune,100000,14519.65,3618.27,24.9,35,31-60 DPD,2024-09-22,Cleared,High
+CUST0064,Business,Ahmedabad,150000,95386.06,90620.54,95.0,35,31-60 DPD,2024-09-28,Pending,High
+CUST0065,Self-Employed,Delhi,150000,75198.34,11968.41,15.9,35,31-60 DPD,2024-08-06,Bounced,High
+CUST0066,Business,Delhi,150000,80420.6,19240.3,23.9,0,Current,2024-05-21,Bounced,Medium
+CUST0067,Self-Employed,Chennai,75000,67779.31,5461.5,8.1,0,Current,2024-06-20,Bounced,High
+CUST0068,Salaried,Pune,25000,11834.53,3915.83,33.1,0,Current,2024-04-19,Cleared,Medium
+CUST0069,Self-Employed,Mumbai,200000,23515.75,20709.3,88.1,0,Current,2024-10-26,Cleared,Medium
+CUST0070,Salaried,Bangalore,100000,58439.85,42931.9,73.5,15,1-30 DPD,2024-07-18,Bounced,Medium
+CUST0071,Self-Employed,Chennai,100000,12612.23,4239.34,33.6,0,Current,2024-08-11,Bounced,Medium
+CUST0072,Business,Mumbai,150000,87106.69,78999.57,90.7,0,Current,2024-03-06,Bounced,High
+CUST0073,Self-Employed,Pune,50000,44008.31,7997.59,18.2,0,Current,2024-08-07,Cleared,Medium
+CUST0074,Salaried,Bangalore,100000,35043.1,33333.14,95.1,0,Current,2024-06-21,Bounced,High
+CUST0075,Business,Mumbai,25000,24997.93,8748.28,35.0,0,Current,2024-10-03,Bounced,Low
+CUST0076,Salaried,Hyderabad,25000,16480.05,3931.23,23.9,0,Current,2024-04-12,Bounced,Medium
+CUST0077,Business,Chennai,75000,59265.62,9944.13,16.8,0,Current,2024-12-24,Bounced,Low
+CUST0078,Self-Employed,Bangalore,25000,15520.41,14416.71,92.9,0,Current,2024-06-08,Pending,Low
+CUST0079,Self-Employed,Ahmedabad,150000,108232.95,67888.29,62.7,0,Current,2024-02-08,Pending,High
+CUST0080,Self-Employed,Mumbai,150000,120655.77,41892.14,34.7,0,Current,2024-03-02,Pending,High
+CUST0081,Self-Employed,Chennai,25000,21615.45,17775.05,82.2,0,Current,2024-06-23,Cleared,High
+CUST0082,Business,Ahmedabad,100000,25852.33,13488.37,52.2,0,Current,2024-03-19,Pending,Medium
+CUST0083,Salaried,Ahmedabad,100000,84316.11,49955.16,59.2,0,Current,2024-08-26,Bounced,Medium
+CUST0084,Self-Employed,Mumbai,50000,38771.43,22093.89,57.0,0,Current,2024-08-18,Cleared,Medium
+CUST0085,Business,Chennai,100000,29090.79,23209.57,79.8,0,Current,2024-04-03,Cleared,High
+CUST0086,Self-Employed,Hyderabad,150000,142988.45,12241.66,8.6,15,1-30 DPD,2024-01-06,Bounced,High
+CUST0087,Self-Employed,Pune,200000,148131.63,66388.83,44.8,0,Current,2024-08-31,Cleared,High
+CUST0088,Self-Employed,Bangalore,75000,52317.3,19306.15,36.9,0,Current,2024-05-04,Pending,High
+CUST0089,Salaried,Chennai,75000,54942.71,14884.88,27.1,0,Current,2024-06-18,Bounced,Medium
+CUST0090,Salaried,Chennai,200000,116455.51,88761.18,76.2,0,Current,2024-03-02,Cleared,Medium
+CUST0091,Self-Employed,Pune,150000,95566.75,93704.21,98.1,35,31-60 DPD,2024-10-28,Cleared,Low
+CUST0092,Salaried,Hyderabad,25000,18430.42,2332.98,12.7,0,Current,2024-06-03,Cleared,High
+CUST0093,Business,Delhi,200000,176323.02,86553.21,49.1,35,31-60 DPD,2024-03-05,Cleared,Medium
+CUST0094,Self-Employed,Mumbai,75000,19944.55,1024.69,5.1,65,60+ DPD,2024-08-13,Bounced,Medium
+CUST0095,Business,Delhi,25000,15482.98,10628.31,68.6,0,Current,2024-09-08,Bounced,Low
+CUST0096,Salaried,Ahmedabad,150000,118199.87,71666.67,60.6,15,1-30 DPD,2024-03-01,Pending,Medium
+CUST0097,Business,Hyderabad,100000,36761.78,21635.23,58.9,0,Current,2024-08-18,Bounced,High
+CUST0098,Salaried,Pune,50000,33148.18,8772.54,26.5,0,Current,2024-02-20,Pending,Low
+CUST0099,Salaried,Pune,25000,11691.65,8059.89,68.9,0,Current,2024-03-21,Cleared,High
+CUST0100,Self-Employed,Ahmedabad,200000,174729.21,12437.18,7.1,0,Current,2024-05-24,Pending,High
+CUST0101,Self-Employed,Ahmedabad,50000,24131.25,13140.97,54.5,0,Current,2024-12-04,Bounced,Low
+CUST0102,Self-Employed,Bangalore,50000,40668.29,24199.42,59.5,35,31-60 DPD,2024-01-31,Bounced,Medium
+CUST0103,Self-Employed,Bangalore,75000,54732.02,51594.57,94.3,0,Current,2024-12-18,Bounced,High
+CUST0104,Salaried,Chennai,100000,76108.05,45947.47,60.4,0,Current,2024-01-21,Pending,High
+CUST0105,Salaried,Bangalore,200000,167855.82,96726.41,57.6,15,1-30 DPD,2024-01-11,Pending,High
+CUST0106,Self-Employed,Mumbai,75000,19750.52,11560.56,58.5,0,Current,2024-08-14,Cleared,Medium
+CUST0107,Self-Employed,Chennai,75000,29171.43,3051.33,10.5,0,Current,2024-07-28,Cleared,Medium
+CUST0108,Self-Employed,Delhi,100000,83220.94,45779.56,55.0,0,Current,2024-12-05,Cleared,Low
+CUST0109,Self-Employed,Bangalore,150000,126365.17,145.45,0.1,35,31-60 DPD,2024-07-25,Bounced,Low
+CUST0110,Salaried,Pune,75000,49527.79,24689.26,49.8,0,Current,2024-09-22,Cleared,High
+CUST0111,Business,Hyderabad,75000,37072.84,25886.11,69.8,0,Current,2024-03-08,Bounced,High
+CUST0112,Salaried,Bangalore,75000,44681.63,24675.49,55.2,0,Current,2024-03-22,Bounced,High
+CUST0113,Self-Employed,Ahmedabad,100000,93938.78,27417.12,29.2,15,1-30 DPD,2024-03-19,Cleared,Medium
+CUST0114,Business,Chennai,100000,59613.86,22867.04,38.4,65,60+ DPD,2024-05-04,Bounced,Low
+CUST0115,Salaried,Delhi,100000,40588.77,31972.48,78.8,0,Current,2024-05-21,Pending,Medium
+CUST0116,Business,Bangalore,150000,149851.81,73373.49,49.0,0,Current,2024-10-27,Cleared,Medium
+CUST0117,Business,Pune,150000,65923.36,61496.76,93.3,35,31-60 DPD,2024-10-09,Pending,Medium
+CUST0118,Self-Employed,Bangalore,100000,13928.26,10372.45,74.5,15,1-30 DPD,2024-04-29,Pending,High
+CUST0119,Self-Employed,Ahmedabad,100000,96834.2,12224.96,12.6,90,60+ DPD,2024-03-18,Bounced,Medium
+CUST0120,Business,Pune,150000,137909.63,2116.58,1.5,0,Current,2024-02-21,Bounced,Medium
+CUST0121,Self-Employed,Ahmedabad,75000,49570.01,19703.25,39.7,0,Current,2024-05-15,Pending,High
+CUST0122,Business,Mumbai,75000,49808.94,44202.38,88.7,0,Current,2024-07-13,Pending,Low
+CUST0123,Salaried,Bangalore,200000,143191.92,41150.35,28.7,0,Current,2024-04-30,Bounced,High
+CUST0124,Salaried,Delhi,25000,12482.77,8663.06,69.4,65,60+ DPD,2024-12-26,Bounced,Medium
+CUST0125,Business,Ahmedabad,75000,36571.36,8930.63,24.4,0,Current,2024-07-02,Bounced,Low
+CUST0126,Self-Employed,Hyderabad,25000,16213.57,6202.41,38.3,0,Current,2024-03-30,Bounced,Low
+CUST0127,Self-Employed,Delhi,200000,65715.92,16779.03,25.5,0,Current,2024-08-24,Pending,High
+CUST0128,Business,Bangalore,25000,12438.92,4298.46,34.6,0,Current,2024-03-21,Pending,Medium
+CUST0129,Salaried,Bangalore,75000,20947.15,8058.23,38.5,0,Current,2024-08-21,Pending,Medium
+CUST0130,Business,Bangalore,75000,74506.71,21996.67,29.5,90,60+ DPD,2024-10-21,Cleared,Low
+CUST0131,Business,Bangalore,200000,160096.09,155870.0,97.4,65,60+ DPD,2024-10-16,Cleared,Low
+CUST0132,Business,Ahmedabad,75000,22282.81,4236.67,19.0,0,Current,2024-11-06,Pending,High
+CUST0133,Self-Employed,Mumbai,200000,37489.51,23523.1,62.7,0,Current,2024-03-11,Pending,Medium
+CUST0134,Salaried,Pune,25000,22966.63,7503.64,32.7,0,Current,2024-03-08,Pending,Medium
+CUST0135,Self-Employed,Ahmedabad,150000,138320.74,114871.59,83.0,0,Current,2024-09-28,Cleared,High
+CUST0136,Salaried,Ahmedabad,25000,13037.46,981.71,7.5,15,1-30 DPD,2024-06-22,Pending,High
+CUST0137,Self-Employed,Mumbai,100000,97054.28,78088.67,80.5,0,Current,2024-12-11,Cleared,High
+CUST0138,Self-Employed,Ahmedabad,100000,43172.71,32336.86,74.9,0,Current,2024-03-04,Pending,Medium
+CUST0139,Business,Delhi,200000,62087.94,1553.73,2.5,35,31-60 DPD,2024-02-25,Pending,Low
+CUST0140,Business,Bangalore,25000,16796.59,7798.11,46.4,15,1-30 DPD,2024-11-27,Bounced,Low
+CUST0141,Business,Pune,25000,9348.2,4605.15,49.3,0,Current,2024-01-24,Cleared,Medium
+CUST0142,Business,Chennai,200000,190888.54,132950.81,69.6,0,Current,2024-07-08,Pending,Low
+CUST0143,Self-Employed,Mumbai,200000,37823.89,18509.01,48.9,0,Current,2024-07-31,Pending,Medium
+CUST0144,Business,Delhi,100000,50022.63,11810.98,23.6,0,Current,2024-04-21,Pending,High
+CUST0145,Self-Employed,Mumbai,25000,11458.14,2174.85,19.0,0,Current,2024-07-02,Pending,Low
+CUST0146,Salaried,Pune,200000,127486.27,2722.78,2.1,15,1-30 DPD,2024-11-24,Pending,Low
+CUST0147,Self-Employed,Ahmedabad,150000,42966.24,9278.62,21.6,35,31-60 DPD,2024-02-05,Bounced,High
+CUST0148,Self-Employed,Ahmedabad,75000,65442.41,9468.73,14.5,0,Current,2024-01-02,Bounced,Low
+CUST0149,Business,Delhi,25000,5465.57,1958.0,35.8,15,1-30 DPD,2024-12-04,Bounced,Low
+CUST0150,Salaried,Bangalore,25000,5352.07,2253.01,42.1,0,Current,2024-05-15,Cleared,Medium
+CUST0151,Salaried,Chennai,150000,29722.29,14975.24,50.4,65,60+ DPD,2024-09-19,Pending,High
+CUST0152,Self-Employed,Bangalore,100000,67900.66,2115.15,3.1,90,60+ DPD,2024-06-03,Pending,Low
+CUST0153,Business,Pune,200000,183746.15,13503.64,7.3,0,Current,2024-09-08,Bounced,Low
+CUST0154,Business,Hyderabad,150000,100465.36,55090.83,54.8,0,Current,2024-05-20,Cleared,Medium
+CUST0155,Business,Chennai,150000,73076.91,57957.01,79.3,0,Current,2024-09-15,Pending,High
+CUST0156,Self-Employed,Bangalore,100000,50639.94,11570.9,22.8,0,Current,2024-04-20,Cleared,High
+CUST0157,Salaried,Chennai,75000,36306.57,24147.79,66.5,0,Current,2024-02-18,Cleared,Low
+CUST0158,Salaried,Hyderabad,25000,4597.68,443.97,9.7,15,1-30 DPD,2024-02-16,Bounced,High
+CUST0159,Business,Ahmedabad,150000,59502.21,7273.03,12.2,0,Current,2024-10-14,Cleared,High
+CUST0160,Salaried,Pune,75000,48027.68,16888.75,35.2,0,Current,2024-01-27,Pending,Medium
+CUST0161,Self-Employed,Hyderabad,25000,10377.56,5772.68,55.6,0,Current,2024-04-24,Bounced,Medium
+CUST0162,Business,Ahmedabad,150000,97832.39,62876.8,64.3,0,Current,2024-10-14,Pending,Medium
+CUST0163,Self-Employed,Mumbai,50000,17297.17,13187.53,76.2,65,60+ DPD,2024-01-15,Bounced,Low
+CUST0164,Salaried,Mumbai,200000,92141.18,13072.5,14.2,0,Current,2024-10-16,Pending,High
+CUST0165,Business,Delhi,100000,47784.92,16289.69,34.1,0,Current,2024-04-20,Pending,High
+CUST0166,Salaried,Delhi,25000,6000.55,4527.03,75.4,0,Current,2024-02-13,Cleared,High
+CUST0167,Business,Mumbai,100000,64636.84,26771.53,41.4,0,Current,2024-08-05,Cleared,Medium
+CUST0168,Self-Employed,Mumbai,75000,53279.71,31602.02,59.3,0,Current,2024-02-26,Bounced,Medium
+CUST0169,Salaried,Ahmedabad,25000,2672.96,805.68,30.1,0,Current,2024-11-02,Cleared,Medium
+CUST0170,Self-Employed,Hyderabad,25000,2673.92,1997.46,74.7,0,Current,2024-06-16,Pending,Low
+CUST0171,Business,Mumbai,150000,127502.82,102792.8,80.6,0,Current,2024-09-13,Cleared,Low
+CUST0172,Business,Chennai,25000,21897.48,12607.67,57.6,0,Current,2024-08-23,Cleared,Medium
+CUST0173,Business,Bangalore,100000,11877.09,3857.3,32.5,15,1-30 DPD,2024-02-28,Pending,Medium
+CUST0174,Business,Mumbai,100000,86003.59,20926.09,24.3,0,Current,2024-02-15,Cleared,Medium
+CUST0175,Salaried,Hyderabad,50000,19988.09,3360.65,16.8,0,Current,2024-06-22,Pending,Low
+CUST0176,Salaried,Mumbai,75000,56598.09,46350.93,81.9,15,1-30 DPD,2024-06-27,Bounced,Medium
+CUST0177,Salaried,Ahmedabad,50000,32107.95,24408.95,76.0,0,Current,2024-04-11,Pending,Medium
+CUST0178,Business,Chennai,150000,117583.42,52783.82,44.9,65,60+ DPD,2024-08-25,Pending,High
+CUST0179,Business,Delhi,200000,76905.0,33819.96,44.0,0,Current,2024-06-14,Cleared,High
+CUST0180,Salaried,Delhi,75000,41745.24,12958.05,31.0,0,Current,2024-01-29,Cleared,Low
+CUST0181,Business,Ahmedabad,25000,16337.69,8284.32,50.7,0,Current,2024-11-26,Pending,Low
+CUST0182,Salaried,Mumbai,150000,102998.06,33116.63,32.2,0,Current,2024-08-18,Cleared,Low
+CUST0183,Business,Bangalore,200000,35179.24,22730.26,64.6,0,Current,2024-06-24,Cleared,High
+CUST0184,Self-Employed,Ahmedabad,150000,36430.74,13583.27,37.3,0,Current,2024-09-24,Cleared,High
+CUST0185,Salaried,Hyderabad,25000,20257.61,13112.86,64.7,0,Current,2024-11-02,Pending,Medium
+CUST0186,Salaried,Delhi,75000,56352.02,36998.71,65.7,65,60+ DPD,2024-05-25,Bounced,High
+CUST0187,Business,Bangalore,50000,46253.59,14349.33,31.0,0,Current,2024-12-05,Bounced,High
+CUST0188,Salaried,Chennai,25000,9465.59,3565.49,37.7,15,1-30 DPD,2024-12-28,Pending,High
+CUST0189,Salaried,Delhi,150000,27616.15,18515.41,67.0,0,Current,2024-12-16,Cleared,Low
+CUST0190,Salaried,Pune,75000,71467.61,34752.62,48.6,0,Current,2024-04-19,Bounced,Medium
+CUST0191,Salaried,Chennai,150000,119068.09,99436.12,83.5,35,31-60 DPD,2024-02-21,Cleared,High
+CUST0192,Business,Ahmedabad,150000,65857.18,10685.14,16.2,35,31-60 DPD,2024-03-08,Bounced,High
+CUST0193,Self-Employed,Hyderabad,25000,11744.32,7943.42,67.6,0,Current,2024-08-12,Cleared,High
+CUST0194,Self-Employed,Ahmedabad,50000,29030.5,8984.01,30.9,15,1-30 DPD,2024-08-17,Bounced,Medium
+CUST0195,Self-Employed,Hyderabad,150000,147899.37,68282.18,46.2,0,Current,2024-12-13,Pending,Medium
+CUST0196,Business,Bangalore,50000,41056.67,5682.18,13.8,0,Current,2024-03-23,Cleared,High
+CUST0197,Salaried,Delhi,200000,172260.61,146622.38,85.1,0,Current,2024-02-22,Cleared,High
+CUST0198,Self-Employed,Mumbai,100000,18254.22,16620.56,91.1,15,1-30 DPD,2024-03-16,Cleared,Low
+CUST0199,Salaried,Mumbai,150000,65484.8,25288.01,38.6,0,Current,2024-07-21,Cleared,Low
+CUST0200,Self-Employed,Chennai,200000,80352.26,11735.39,14.6,0,Current,2024-12-31,Bounced,High
+CUST0201,Salaried,Ahmedabad,100000,65381.34,59226.18,90.6,0,Current,2024-08-28,Bounced,High
+CUST0202,Salaried,Mumbai,150000,72139.39,55992.62,77.6,0,Current,2024-11-07,Bounced,Medium
+CUST0203,Business,Hyderabad,150000,76710.34,8503.95,11.1,65,60+ DPD,2024-11-23,Bounced,High
+CUST0204,Business,Delhi,150000,47661.65,6843.11,14.4,0,Current,2024-09-20,Bounced,High
+CUST0205,Salaried,Hyderabad,50000,34896.71,2987.65,8.6,90,60+ DPD,2024-08-01,Pending,High
+CUST0206,Self-Employed,Delhi,150000,17745.13,15497.38,87.3,0,Current,2024-09-16,Cleared,High
+CUST0207,Business,Mumbai,75000,60725.1,20938.17,34.5,15,1-30 DPD,2024-01-09,Pending,High
+CUST0208,Salaried,Ahmedabad,50000,6995.11,3819.43,54.6,15,1-30 DPD,2024-06-19,Pending,Medium
+CUST0209,Self-Employed,Mumbai,100000,66856.23,54253.68,81.1,0,Current,2024-12-22,Cleared,Low
+CUST0210,Self-Employed,Ahmedabad,50000,44860.57,14157.81,31.6,0,Current,2024-01-23,Pending,Medium
+CUST0211,Salaried,Ahmedabad,25000,19449.05,3716.78,19.1,0,Current,2024-05-09,Pending,Medium
+CUST0212,Self-Employed,Bangalore,25000,20485.2,8951.04,43.7,0,Current,2024-05-19,Cleared,Low
+CUST0213,Salaried,Chennai,200000,109554.21,101262.1,92.4,0,Current,2024-09-11,Cleared,Low
+CUST0214,Salaried,Mumbai,150000,149338.25,26949.06,18.0,0,Current,2024-08-08,Cleared,High
+CUST0215,Self-Employed,Delhi,75000,37599.31,26983.63,71.8,0,Current,2024-05-31,Cleared,Low
+CUST0216,Salaried,Mumbai,150000,149750.33,41114.76,27.5,90,60+ DPD,2024-06-29,Pending,High
+CUST0217,Salaried,Pune,75000,42133.31,31595.68,75.0,0,Current,2024-07-26,Pending,High
+CUST0218,Self-Employed,Bangalore,25000,5340.18,1260.26,23.6,0,Current,2024-08-12,Pending,Low
+CUST0219,Salaried,Hyderabad,50000,35557.79,33738.07,94.9,0,Current,2024-11-05,Bounced,High
+CUST0220,Salaried,Chennai,100000,38294.69,10672.34,27.9,90,60+ DPD,2024-07-06,Bounced,Medium
+CUST0221,Business,Bangalore,100000,92218.83,10859.78,11.8,15,1-30 DPD,2024-09-22,Bounced,High
+CUST0222,Salaried,Bangalore,200000,184966.2,90855.43,49.1,0,Current,2024-05-26,Bounced,High
+CUST0223,Business,Delhi,25000,20736.55,20063.88,96.8,90,60+ DPD,2024-08-15,Pending,Low
+CUST0224,Business,Chennai,150000,54198.91,16257.33,30.0,0,Current,2024-10-08,Pending,Low
+CUST0225,Salaried,Ahmedabad,150000,45272.62,44599.53,98.5,15,1-30 DPD,2024-07-04,Cleared,Low
+CUST0226,Salaried,Hyderabad,150000,92257.45,43121.67,46.7,90,60+ DPD,2024-07-03,Bounced,Low
+CUST0227,Self-Employed,Ahmedabad,100000,99963.55,71860.76,71.9,0,Current,2024-06-07,Pending,Low
+CUST0228,Self-Employed,Pune,75000,50857.85,22884.74,45.0,0,Current,2024-03-05,Pending,High
+CUST0229,Salaried,Ahmedabad,50000,39550.17,5103.28,12.9,0,Current,2024-10-27,Bounced,High
+CUST0230,Self-Employed,Hyderabad,75000,18614.35,6006.12,32.3,15,1-30 DPD,2024-03-19,Cleared,Low
+CUST0231,Self-Employed,Hyderabad,50000,33577.57,18495.92,55.1,0,Current,2024-05-08,Pending,Low
+CUST0232,Business,Hyderabad,200000,50354.46,47414.11,94.2,0,Current,2024-09-14,Pending,High
+CUST0233,Business,Ahmedabad,150000,20561.23,17760.4,86.4,0,Current,2024-06-21,Pending,Medium
+CUST0234,Self-Employed,Chennai,50000,39513.16,16460.66,41.7,0,Current,2024-11-29,Pending,Medium
+CUST0235,Self-Employed,Bangalore,75000,40098.78,32267.01,80.5,0,Current,2024-11-24,Bounced,High
+CUST0236,Business,Pune,50000,24782.25,12000.83,48.4,0,Current,2024-01-31,Cleared,High
+CUST0237,Self-Employed,Hyderabad,200000,197844.21,68329.57,34.5,0,Current,2024-06-12,Pending,Low
+CUST0238,Salaried,Mumbai,50000,25991.27,6951.93,26.7,0,Current,2024-06-12,Cleared,Medium
+CUST0239,Self-Employed,Hyderabad,100000,32344.33,27987.79,86.5,0,Current,2024-11-11,Pending,Medium
+CUST0240,Self-Employed,Bangalore,50000,27421.95,14114.76,51.5,0,Current,2024-04-07,Bounced,Low
+CUST0241,Salaried,Mumbai,150000,76726.14,18470.18,24.1,0,Current,2024-07-20,Cleared,Medium
+CUST0242,Salaried,Bangalore,200000,141053.71,40305.87,28.6,0,Current,2024-11-01,Bounced,Medium
+CUST0243,Salaried,Delhi,100000,42934.36,17198.72,40.1,0,Current,2024-07-06,Pending,Medium
+CUST0244,Business,Chennai,100000,55383.0,42334.99,76.4,0,Current,2024-02-07,Pending,Low
+CUST0245,Self-Employed,Ahmedabad,25000,11362.83,9032.28,79.5,0,Current,2024-03-06,Bounced,Low
+CUST0246,Business,Delhi,150000,69187.26,2785.13,4.0,0,Current,2024-11-04,Cleared,High
+CUST0247,Business,Delhi,50000,32281.72,16641.41,51.6,0,Current,2024-08-21,Bounced,Medium
+CUST0248,Business,Hyderabad,200000,171668.35,101923.73,59.4,0,Current,2024-11-11,Cleared,High
+CUST0249,Salaried,Bangalore,75000,39555.25,658.08,1.7,0,Current,2024-10-15,Pending,Medium
+CUST0250,Business,Hyderabad,200000,24796.49,11768.17,47.5,90,60+ DPD,2024-12-18,Bounced,High
+CUST0251,Self-Employed,Pune,150000,79860.59,41865.5,52.4,15,1-30 DPD,2024-01-27,Pending,Low
+CUST0252,Self-Employed,Bangalore,150000,143007.7,15715.91,11.0,0,Current,2024-01-17,Bounced,Medium
+CUST0253,Business,Chennai,50000,23466.98,18186.26,77.5,65,60+ DPD,2024-12-19,Bounced,High
+CUST0254,Business,Bangalore,150000,42991.13,13974.25,32.5,0,Current,2024-03-11,Cleared,Low
+CUST0255,Business,Chennai,150000,61214.15,21687.38,35.4,15,1-30 DPD,2024-08-23,Pending,High
+CUST0256,Self-Employed,Pune,150000,80364.31,76935.76,95.7,0,Current,2024-05-15,Cleared,Medium
+CUST0257,Business,Ahmedabad,50000,36060.8,17633.84,48.9,0,Current,2024-12-26,Pending,Medium
+CUST0258,Self-Employed,Ahmedabad,25000,15403.23,8366.89,54.3,35,31-60 DPD,2024-05-27,Cleared,Low
+CUST0259,Self-Employed,Chennai,25000,8971.68,6407.05,71.4,0,Current,2024-05-28,Cleared,High
+CUST0260,Business,Delhi,50000,14093.06,7590.21,53.9,65,60+ DPD,2024-09-02,Bounced,Low
+CUST0261,Business,Pune,200000,125629.49,30459.88,24.2,0,Current,2024-11-11,Pending,Low
+CUST0262,Salaried,Mumbai,25000,11799.28,8464.31,71.7,0,Current,2024-01-27,Pending,Low
+CUST0263,Salaried,Ahmedabad,200000,188305.78,165407.73,87.8,0,Current,2024-07-27,Cleared,Medium
+CUST0264,Salaried,Hyderabad,200000,30649.27,23560.86,76.9,0,Current,2024-05-26,Pending,High
+CUST0265,Salaried,Ahmedabad,50000,23804.82,19939.03,83.8,65,60+ DPD,2024-01-20,Cleared,Medium
+CUST0266,Salaried,Delhi,200000,193183.65,178895.73,92.6,35,31-60 DPD,2024-04-05,Pending,High
+CUST0267,Self-Employed,Pune,75000,26707.91,26416.78,98.9,0,Current,2024-02-24,Pending,Medium
+CUST0268,Business,Delhi,50000,41396.62,13689.2,33.1,15,1-30 DPD,2024-05-19,Pending,Low
+CUST0269,Salaried,Pune,200000,80680.19,23802.61,29.5,0,Current,2024-01-08,Pending,High
+CUST0270,Salaried,Pune,100000,56375.26,4889.86,8.7,0,Current,2024-07-26,Cleared,Medium
+CUST0271,Self-Employed,Delhi,25000,8367.67,1970.76,23.6,15,1-30 DPD,2024-05-07,Pending,High
+CUST0272,Business,Mumbai,25000,8384.95,3014.83,36.0,0,Current,2024-10-20,Cleared,Medium
+CUST0273,Self-Employed,Chennai,100000,71746.63,66229.75,92.3,35,31-60 DPD,2024-03-22,Bounced,High
+CUST0274,Salaried,Bangalore,75000,48987.22,10734.5,21.9,0,Current,2024-05-31,Pending,High
+CUST0275,Business,Ahmedabad,100000,73174.67,66793.61,91.3,15,1-30 DPD,2024-07-10,Bounced,Low
+CUST0276,Business,Delhi,150000,132873.23,10878.37,8.2,0,Current,2024-12-14,Bounced,High
+CUST0277,Business,Pune,25000,21147.42,19093.76,90.3,0,Current,2024-02-27,Bounced,Medium
+CUST0278,Salaried,Hyderabad,100000,20461.6,4202.84,20.5,0,Current,2024-09-23,Cleared,Low
+CUST0279,Self-Employed,Chennai,50000,28096.15,12834.28,45.7,0,Current,2024-08-20,Cleared,High
+CUST0280,Salaried,Mumbai,100000,32901.15,99.21,0.3,0,Current,2024-01-12,Cleared,Medium
+CUST0281,Self-Employed,Mumbai,25000,14676.18,884.32,6.0,35,31-60 DPD,2024-12-24,Cleared,Medium
+CUST0282,Self-Employed,Delhi,50000,39462.25,38607.23,97.8,0,Current,2024-04-02,Cleared,Medium
+CUST0283,Salaried,Chennai,100000,17222.5,16604.98,96.4,35,31-60 DPD,2024-07-12,Cleared,Low
+CUST0284,Salaried,Ahmedabad,150000,68062.92,8667.61,12.7,90,60+ DPD,2024-04-01,Bounced,Medium
+CUST0285,Salaried,Pune,200000,149436.92,63380.39,42.4,0,Current,2024-08-25,Cleared,Medium
+CUST0286,Salaried,Ahmedabad,75000,20222.43,17698.84,87.5,15,1-30 DPD,2024-03-20,Pending,Medium
+CUST0287,Self-Employed,Hyderabad,25000,7914.99,532.61,6.7,0,Current,2024-11-10,Pending,High
+CUST0288,Salaried,Ahmedabad,50000,38324.35,15416.56,40.2,0,Current,2024-01-25,Bounced,Low
+CUST0289,Business,Hyderabad,75000,23305.9,21357.46,91.6,0,Current,2024-09-14,Pending,Medium
+CUST0290,Self-Employed,Delhi,75000,66647.44,65694.09,98.6,0,Current,2024-05-01,Cleared,Low
+CUST0291,Self-Employed,Hyderabad,150000,133761.38,121933.89,91.2,0,Current,2024-10-12,Cleared,Low
+CUST0292,Self-Employed,Bangalore,200000,140841.65,110674.02,78.6,0,Current,2024-06-25,Bounced,Medium
+CUST0293,Self-Employed,Ahmedabad,50000,38948.72,18442.95,47.4,35,31-60 DPD,2024-07-11,Pending,Low
+CUST0294,Salaried,Bangalore,25000,15153.68,14665.52,96.8,0,Current,2024-08-25,Bounced,Medium
+CUST0295,Salaried,Hyderabad,75000,51152.64,47174.3,92.2,35,31-60 DPD,2024-04-14,Pending,Low
+CUST0296,Salaried,Pune,75000,32958.84,19939.09,60.5,0,Current,2024-01-27,Pending,High
+CUST0297,Self-Employed,Mumbai,150000,44297.23,9253.21,20.9,65,60+ DPD,2024-12-09,Bounced,Low
+CUST0298,Business,Chennai,200000,199922.96,95747.28,47.9,0,Current,2024-03-01,Bounced,Medium
+CUST0299,Business,Delhi,150000,58418.03,16535.76,28.3,0,Current,2024-05-02,Cleared,Medium
+CUST0300,Business,Bangalore,150000,134179.61,62528.24,46.6,15,1-30 DPD,2024-07-03,Cleared,Low
+CUST0301,Salaried,Mumbai,75000,35440.29,19936.04,56.3,0,Current,2024-07-08,Cleared,High
+CUST0302,Salaried,Bangalore,150000,112201.61,33121.05,29.5,0,Current,2024-10-26,Pending,Low
+CUST0303,Self-Employed,Chennai,150000,103372.08,70794.02,68.5,0,Current,2024-09-12,Pending,High
+CUST0304,Business,Hyderabad,100000,25141.03,19986.5,79.5,0,Current,2024-09-08,Cleared,Low
+CUST0305,Salaried,Ahmedabad,200000,192302.64,100755.89,52.4,35,31-60 DPD,2024-10-04,Pending,Low
+CUST0306,Salaried,Mumbai,100000,22374.24,14111.47,63.1,0,Current,2024-01-04,Bounced,High
+CUST0307,Self-Employed,Chennai,75000,11580.38,7385.14,63.8,65,60+ DPD,2024-08-21,Cleared,Low
+CUST0308,Self-Employed,Hyderabad,150000,89471.88,1060.33,1.2,0,Current,2024-01-04,Cleared,Low
+CUST0309,Salaried,Mumbai,200000,141325.93,113932.4,80.6,65,60+ DPD,2024-09-14,Pending,Low
+CUST0310,Self-Employed,Mumbai,50000,32890.14,8302.07,25.2,0,Current,2024-05-03,Cleared,Medium
+CUST0311,Salaried,Chennai,150000,47833.07,33350.95,69.7,0,Current,2024-08-23,Pending,Low
+CUST0312,Salaried,Chennai,100000,44133.76,24392.79,55.3,0,Current,2024-02-17,Bounced,Low
+CUST0313,Salaried,Hyderabad,100000,68041.65,22540.2,33.1,90,60+ DPD,2024-09-12,Bounced,Low
+CUST0314,Salaried,Chennai,200000,179759.78,85475.83,47.6,0,Current,2024-04-18,Cleared,High
+CUST0315,Salaried,Hyderabad,200000,25922.32,24075.78,92.9,0,Current,2024-10-15,Bounced,High
+CUST0316,Self-Employed,Chennai,25000,9233.73,5207.44,56.4,0,Current,2024-07-22,Pending,Medium
+CUST0317,Business,Chennai,200000,45191.11,44670.42,98.8,15,1-30 DPD,2024-07-15,Cleared,Low
+CUST0318,Business,Hyderabad,100000,30892.96,2348.43,7.6,0,Current,2024-02-20,Cleared,Medium
+CUST0319,Self-Employed,Hyderabad,200000,69198.87,68685.82,99.3,0,Current,2024-01-16,Cleared,Medium
+CUST0320,Self-Employed,Ahmedabad,200000,125457.52,47682.98,38.0,15,1-30 DPD,2024-04-05,Bounced,High
+CUST0321,Salaried,Chennai,25000,8529.37,3241.16,38.0,15,1-30 DPD,2024-02-07,Cleared,Medium
+CUST0322,Self-Employed,Mumbai,25000,4559.21,4299.15,94.3,0,Current,2024-07-03,Bounced,Low
+CUST0323,Salaried,Mumbai,100000,50395.93,27956.64,55.5,0,Current,2024-04-05,Cleared,High
+CUST0324,Self-Employed,Bangalore,150000,95735.91,31059.63,32.4,0,Current,2024-02-17,Cleared,Low
+CUST0325,Salaried,Delhi,50000,30738.22,5212.68,17.0,0,Current,2024-10-13,Cleared,Medium
+CUST0326,Self-Employed,Ahmedabad,50000,7847.02,3410.91,43.5,0,Current,2024-09-09,Bounced,Medium
+CUST0327,Self-Employed,Mumbai,50000,37440.48,18563.08,49.6,0,Current,2024-05-08,Bounced,Medium
+CUST0328,Self-Employed,Bangalore,100000,39899.55,24745.39,62.0,15,1-30 DPD,2024-01-04,Cleared,Medium
+CUST0329,Salaried,Bangalore,150000,33376.8,10702.78,32.1,65,60+ DPD,2024-11-29,Cleared,Low
+CUST0330,Business,Ahmedabad,75000,27172.75,18883.91,69.5,0,Current,2024-07-22,Bounced,Medium
+CUST0331,Business,Pune,75000,62613.38,24603.0,39.3,0,Current,2024-07-11,Pending,High
+CUST0332,Business,Pune,200000,158171.22,4257.35,2.7,15,1-30 DPD,2024-04-02,Cleared,Medium
+CUST0333,Self-Employed,Pune,25000,20926.73,16650.5,79.6,0,Current,2024-12-20,Pending,Medium
+CUST0334,Salaried,Bangalore,75000,51959.75,37163.5,71.5,15,1-30 DPD,2024-05-03,Pending,Medium
+CUST0335,Self-Employed,Hyderabad,100000,58093.07,53648.7,92.3,35,31-60 DPD,2024-10-25,Bounced,Medium
+CUST0336,Salaried,Chennai,150000,95165.69,87019.63,91.4,0,Current,2024-12-25,Pending,Medium
+CUST0337,Business,Bangalore,200000,130282.02,73377.48,56.3,0,Current,2024-03-26,Cleared,Medium
+CUST0338,Business,Hyderabad,25000,4718.65,1047.55,22.2,15,1-30 DPD,2024-02-24,Pending,High
+CUST0339,Business,Hyderabad,100000,43670.76,20222.32,46.3,0,Current,2024-04-23,Bounced,Medium
+CUST0340,Salaried,Ahmedabad,100000,19409.44,8073.85,41.6,90,60+ DPD,2024-01-13,Pending,Low
+CUST0341,Self-Employed,Bangalore,75000,30657.0,24043.37,78.4,0,Current,2024-06-27,Bounced,Medium
+CUST0342,Salaried,Mumbai,100000,38701.85,11620.78,30.0,15,1-30 DPD,2024-12-22,Cleared,High
+CUST0343,Business,Pune,200000,164009.02,152515.67,93.0,15,1-30 DPD,2024-02-25,Pending,Low
+CUST0344,Business,Pune,150000,72559.87,33526.59,46.2,15,1-30 DPD,2024-06-18,Bounced,High
+CUST0345,Self-Employed,Hyderabad,100000,45602.41,33626.69,73.7,35,31-60 DPD,2024-12-02,Cleared,Medium
+CUST0346,Salaried,Hyderabad,200000,58663.3,16328.63,27.8,15,1-30 DPD,2024-01-03,Bounced,High
+CUST0347,Self-Employed,Hyderabad,75000,29503.98,13499.56,45.8,0,Current,2024-04-05,Pending,Medium
+CUST0348,Self-Employed,Hyderabad,100000,65017.76,38165.73,58.7,0,Current,2024-11-01,Bounced,High
+CUST0349,Self-Employed,Mumbai,75000,69511.07,41023.23,59.0,0,Current,2024-12-27,Bounced,Medium
+CUST0350,Business,Pune,50000,21798.77,3081.44,14.1,0,Current,2024-02-29,Pending,Medium
+CUST0351,Salaried,Hyderabad,50000,26900.16,14455.59,53.7,65,60+ DPD,2024-08-04,Bounced,Medium
+CUST0352,Self-Employed,Mumbai,50000,13419.44,11298.97,84.2,0,Current,2024-05-27,Cleared,Low
+CUST0353,Business,Bangalore,100000,96744.62,48898.41,50.5,0,Current,2024-04-09,Cleared,High
+CUST0354,Salaried,Delhi,100000,25052.81,14164.8,56.5,15,1-30 DPD,2024-08-15,Bounced,Medium
+CUST0355,Self-Employed,Hyderabad,150000,53970.49,42136.93,78.1,0,Current,2024-04-25,Pending,Low
+CUST0356,Business,Ahmedabad,25000,8527.5,4631.34,54.3,90,60+ DPD,2024-10-20,Bounced,High
+CUST0357,Business,Ahmedabad,150000,44503.16,18920.73,42.5,15,1-30 DPD,2024-08-13,Bounced,Medium
+CUST0358,Salaried,Ahmedabad,100000,33653.37,29015.92,86.2,0,Current,2024-01-17,Bounced,Low
+CUST0359,Salaried,Hyderabad,200000,83113.55,59073.28,71.1,0,Current,2024-10-28,Bounced,Low
+CUST0360,Salaried,Delhi,25000,15326.67,8158.09,53.2,0,Current,2024-04-15,Pending,Medium
+CUST0361,Business,Ahmedabad,150000,51091.31,43837.2,85.8,90,60+ DPD,2024-05-28,Bounced,Low
+CUST0362,Salaried,Pune,25000,24830.94,21529.61,86.7,0,Current,2024-07-29,Bounced,High
+CUST0363,Business,Chennai,50000,39266.31,26553.24,67.6,0,Current,2024-06-13,Cleared,High
+CUST0364,Salaried,Bangalore,100000,50679.26,32111.79,63.4,35,31-60 DPD,2024-07-31,Pending,High
+CUST0365,Self-Employed,Hyderabad,200000,188540.5,69584.86,36.9,65,60+ DPD,2024-05-22,Bounced,High
+CUST0366,Salaried,Ahmedabad,200000,194987.05,123785.69,63.5,0,Current,2024-02-17,Pending,Medium
+CUST0367,Self-Employed,Delhi,100000,84236.29,41672.95,49.5,0,Current,2024-04-21,Pending,High
+CUST0368,Salaried,Mumbai,150000,130077.05,102540.21,78.8,35,31-60 DPD,2024-03-07,Bounced,High
+CUST0369,Salaried,Bangalore,25000,5295.34,4541.56,85.8,0,Current,2024-08-23,Bounced,High
+CUST0370,Salaried,Chennai,200000,74335.79,65000.95,87.4,35,31-60 DPD,2024-03-08,Cleared,Medium
+CUST0371,Business,Delhi,75000,52354.34,33973.32,64.9,0,Current,2024-02-12,Pending,High
+CUST0372,Self-Employed,Mumbai,100000,68993.67,48550.71,70.4,0,Current,2024-04-29,Bounced,High
+CUST0373,Salaried,Ahmedabad,150000,106797.67,991.82,0.9,0,Current,2024-04-25,Cleared,High
+CUST0374,Salaried,Mumbai,100000,16374.55,6272.6,38.3,15,1-30 DPD,2024-03-08,Cleared,Medium
+CUST0375,Business,Chennai,50000,22222.45,18075.03,81.3,35,31-60 DPD,2024-06-02,Bounced,Low
+CUST0376,Business,Pune,150000,16144.09,10493.98,65.0,0,Current,2024-09-28,Pending,High
+CUST0377,Salaried,Pune,100000,65446.84,28952.63,44.2,0,Current,2024-03-18,Bounced,High
+CUST0378,Self-Employed,Chennai,75000,72519.29,22807.58,31.5,0,Current,2024-07-15,Bounced,Low
+CUST0379,Business,Mumbai,150000,96001.06,58329.58,60.8,15,1-30 DPD,2024-10-10,Pending,Medium
+CUST0380,Business,Mumbai,150000,96935.13,18286.48,18.9,0,Current,2024-04-15,Bounced,Medium
+CUST0381,Salaried,Delhi,25000,7924.34,5056.38,63.8,0,Current,2024-07-16,Cleared,Low
+CUST0382,Self-Employed,Ahmedabad,150000,71816.58,39237.44,54.6,0,Current,2024-07-17,Bounced,Low
+CUST0383,Self-Employed,Hyderabad,25000,2810.35,606.31,21.6,65,60+ DPD,2024-10-27,Cleared,High
+CUST0384,Business,Hyderabad,150000,118559.85,50219.02,42.4,0,Current,2024-12-30,Pending,High
+CUST0385,Salaried,Hyderabad,75000,13142.8,1038.56,7.9,65,60+ DPD,2024-03-19,Cleared,Medium
+CUST0386,Self-Employed,Chennai,200000,157380.34,102271.97,65.0,0,Current,2024-10-27,Cleared,High
+CUST0387,Business,Hyderabad,25000,8000.79,7397.75,92.5,0,Current,2024-05-02,Bounced,Medium
+CUST0388,Salaried,Chennai,200000,138449.42,24318.07,17.6,0,Current,2024-12-07,Bounced,Low
+CUST0389,Salaried,Delhi,75000,42802.86,33514.09,78.3,15,1-30 DPD,2024-09-11,Bounced,High
+CUST0390,Self-Employed,Delhi,200000,179554.66,138513.9,77.1,0,Current,2024-05-17,Pending,Low
+CUST0391,Business,Delhi,200000,195509.11,122688.39,62.8,0,Current,2024-05-14,Bounced,Medium
+CUST0392,Business,Chennai,50000,21545.95,5496.72,25.5,0,Current,2024-10-17,Pending,Low
+CUST0393,Salaried,Mumbai,200000,111588.48,4914.12,4.4,35,31-60 DPD,2024-04-26,Cleared,Medium
+CUST0394,Business,Chennai,50000,13053.24,12535.58,96.0,0,Current,2024-07-15,Pending,Medium
+CUST0395,Salaried,Hyderabad,75000,24257.76,22216.59,91.6,0,Current,2024-04-24,Cleared,Low
+CUST0396,Salaried,Bangalore,200000,182349.38,32703.33,17.9,15,1-30 DPD,2024-09-14,Bounced,Medium
+CUST0397,Salaried,Delhi,75000,29592.81,16367.53,55.3,0,Current,2024-05-24,Pending,Medium
+CUST0398,Salaried,Chennai,50000,25876.7,15311.01,59.2,0,Current,2024-11-14,Pending,Low
+CUST0399,Business,Ahmedabad,25000,23478.94,561.39,2.4,0,Current,2024-03-18,Pending,Low
+CUST0400,Self-Employed,Mumbai,25000,19575.91,7365.92,37.6,15,1-30 DPD,2024-06-20,Bounced,High
+CUST0401,Business,Delhi,100000,54282.6,3251.26,6.0,90,60+ DPD,2024-05-01,Bounced,Low
+CUST0402,Business,Mumbai,150000,70762.67,63373.49,89.6,0,Current,2024-04-28,Pending,Low
+CUST0403,Salaried,Bangalore,50000,33674.71,13279.67,39.4,0,Current,2024-09-15,Pending,Low
+CUST0404,Business,Ahmedabad,75000,25116.89,7912.04,31.5,15,1-30 DPD,2024-05-01,Pending,Medium
+CUST0405,Business,Mumbai,100000,34476.03,2574.93,7.5,0,Current,2024-06-11,Bounced,Low
+CUST0406,Salaried,Bangalore,100000,51944.96,21116.28,40.7,0,Current,2024-03-25,Cleared,Medium
+CUST0407,Business,Chennai,25000,4534.47,3662.02,80.8,0,Current,2024-05-15,Pending,Low
+CUST0408,Self-Employed,Hyderabad,75000,17511.86,12453.69,71.1,90,60+ DPD,2024-04-20,Bounced,High
+CUST0409,Self-Employed,Hyderabad,75000,62856.05,10928.64,17.4,65,60+ DPD,2024-06-02,Pending,High
+CUST0410,Salaried,Mumbai,25000,12895.97,10367.03,80.4,0,Current,2024-05-07,Bounced,Low
+CUST0411,Business,Hyderabad,100000,43501.58,27418.94,63.0,0,Current,2024-04-11,Cleared,Low
+CUST0412,Salaried,Ahmedabad,25000,6949.38,4489.21,64.6,15,1-30 DPD,2024-01-12,Cleared,Low
+CUST0413,Business,Bangalore,100000,14557.39,13452.95,92.4,0,Current,2024-01-22,Cleared,Low
+CUST0414,Self-Employed,Delhi,200000,96799.52,34261.54,35.4,65,60+ DPD,2024-07-14,Cleared,Low
+CUST0415,Self-Employed,Hyderabad,150000,98588.83,24231.63,24.6,0,Current,2024-01-18,Cleared,Low
+CUST0416,Business,Pune,75000,33353.53,13982.96,41.9,0,Current,2024-02-14,Pending,High
+CUST0417,Self-Employed,Delhi,100000,80372.42,28862.71,35.9,0,Current,2024-01-10,Pending,High
+CUST0418,Salaried,Ahmedabad,100000,34339.21,894.98,2.6,0,Current,2024-06-13,Cleared,Low
+CUST0419,Salaried,Mumbai,150000,63253.44,36939.31,58.4,0,Current,2024-08-29,Bounced,High
+CUST0420,Salaried,Hyderabad,75000,43524.05,34437.85,79.1,15,1-30 DPD,2024-05-03,Cleared,Medium
+CUST0421,Self-Employed,Hyderabad,50000,15644.8,4975.11,31.8,15,1-30 DPD,2024-03-29,Bounced,High
+CUST0422,Salaried,Ahmedabad,75000,71460.21,40275.44,56.4,0,Current,2024-12-24,Cleared,High
+CUST0423,Salaried,Mumbai,50000,27069.64,2443.23,9.0,0,Current,2024-06-07,Pending,Medium
+CUST0424,Business,Pune,75000,69457.99,13993.31,20.1,0,Current,2024-01-01,Cleared,Low
+CUST0425,Business,Ahmedabad,50000,31397.41,28798.46,91.7,15,1-30 DPD,2024-01-12,Cleared,Low
+CUST0426,Self-Employed,Delhi,200000,189546.18,74983.63,39.6,0,Current,2024-07-10,Bounced,Low
+CUST0427,Business,Chennai,200000,192919.18,125239.32,64.9,0,Current,2024-08-11,Pending,Medium
+CUST0428,Business,Delhi,200000,126011.03,22096.24,17.5,0,Current,2024-04-24,Bounced,Low
+CUST0429,Business,Mumbai,200000,190765.67,74704.11,39.2,90,60+ DPD,2024-01-01,Bounced,High
+CUST0430,Salaried,Delhi,150000,44820.86,25348.45,56.6,65,60+ DPD,2024-06-11,Pending,Low
+CUST0431,Salaried,Ahmedabad,75000,73810.63,12391.88,16.8,35,31-60 DPD,2024-05-01,Pending,High
+CUST0432,Salaried,Chennai,200000,179597.63,80213.68,44.7,0,Current,2024-11-23,Bounced,Medium
+CUST0433,Self-Employed,Pune,25000,18709.31,900.81,4.8,0,Current,2024-05-11,Cleared,Medium
+CUST0434,Business,Chennai,75000,44356.62,4499.03,10.1,0,Current,2024-07-12,Pending,Low
+CUST0435,Self-Employed,Delhi,100000,16633.85,14068.29,84.6,0,Current,2024-03-24,Bounced,Low
+CUST0436,Salaried,Delhi,50000,44956.91,7233.77,16.1,0,Current,2024-06-24,Pending,High
+CUST0437,Self-Employed,Pune,200000,25578.78,24106.52,94.2,0,Current,2024-09-04,Bounced,Low
+CUST0438,Business,Hyderabad,50000,48847.93,19992.47,40.9,0,Current,2024-06-18,Cleared,High
+CUST0439,Self-Employed,Pune,75000,23534.51,1168.15,5.0,0,Current,2024-05-24,Bounced,Medium
+CUST0440,Self-Employed,Pune,100000,17886.55,14736.68,82.4,0,Current,2024-01-02,Bounced,Low
+CUST0441,Salaried,Delhi,50000,33718.58,32945.0,97.7,0,Current,2024-04-15,Cleared,Medium
+CUST0442,Self-Employed,Bangalore,200000,67700.79,43454.86,64.2,0,Current,2024-09-07,Cleared,Low
+CUST0443,Self-Employed,Hyderabad,25000,8424.16,3917.72,46.5,0,Current,2024-08-16,Bounced,Low
+CUST0444,Self-Employed,Ahmedabad,200000,37406.47,24992.8,66.8,15,1-30 DPD,2024-12-22,Pending,Low
+CUST0445,Business,Chennai,25000,21417.94,17528.55,81.8,0,Current,2024-10-10,Cleared,High
+CUST0446,Salaried,Hyderabad,100000,36896.69,14566.97,39.5,35,31-60 DPD,2024-04-30,Pending,High
+CUST0447,Self-Employed,Pune,200000,196895.86,29031.83,14.7,65,60+ DPD,2024-10-19,Bounced,Low
+CUST0448,Salaried,Ahmedabad,50000,6920.42,542.34,7.8,0,Current,2024-04-08,Pending,Low
+CUST0449,Salaried,Bangalore,75000,29083.09,21146.4,72.7,15,1-30 DPD,2024-10-31,Pending,Medium
+CUST0450,Salaried,Ahmedabad,75000,65322.13,33947.14,52.0,65,60+ DPD,2024-10-09,Pending,High
+CUST0451,Business,Hyderabad,150000,120527.56,13561.62,11.3,0,Current,2024-10-27,Pending,Low
+CUST0452,Self-Employed,Bangalore,150000,120238.53,94476.9,78.6,35,31-60 DPD,2024-02-24,Cleared,Medium
+CUST0453,Self-Employed,Pune,100000,61482.09,29083.89,47.3,0,Current,2024-12-01,Pending,High
+CUST0454,Business,Pune,200000,92309.58,36535.46,39.6,35,31-60 DPD,2024-12-14,Bounced,High
+CUST0455,Self-Employed,Delhi,75000,68049.62,1376.84,2.0,15,1-30 DPD,2024-08-31,Cleared,Medium
+CUST0456,Business,Bangalore,200000,37679.13,32739.4,86.9,0,Current,2024-12-22,Cleared,Medium
+CUST0457,Self-Employed,Chennai,150000,102149.9,19197.61,18.8,0,Current,2024-08-01,Cleared,High
+CUST0458,Business,Bangalore,25000,14093.57,2240.49,15.9,0,Current,2024-07-10,Bounced,High
+CUST0459,Salaried,Pune,25000,6409.09,5609.11,87.5,0,Current,2024-10-18,Bounced,Medium
+CUST0460,Business,Bangalore,75000,55062.79,15085.97,27.4,35,31-60 DPD,2024-01-26,Pending,Low
+CUST0461,Self-Employed,Hyderabad,25000,7943.61,3882.73,48.9,0,Current,2024-12-14,Pending,Medium
+CUST0462,Salaried,Delhi,50000,42694.42,11043.34,25.9,35,31-60 DPD,2024-06-25,Bounced,Medium
+CUST0463,Salaried,Chennai,50000,43421.96,33861.75,78.0,0,Current,2024-01-26,Bounced,High
+CUST0464,Business,Mumbai,75000,51482.14,26424.82,51.3,35,31-60 DPD,2024-04-15,Cleared,Low
+CUST0465,Self-Employed,Chennai,50000,32051.39,271.27,0.8,0,Current,2024-11-27,Pending,High
+CUST0466,Salaried,Bangalore,100000,90593.47,77148.15,85.2,0,Current,2024-05-20,Cleared,High
+CUST0467,Business,Ahmedabad,150000,68615.59,7020.21,10.2,0,Current,2024-09-23,Cleared,High
+CUST0468,Salaried,Delhi,150000,97221.76,29018.35,29.8,0,Current,2024-11-27,Cleared,High
+CUST0469,Self-Employed,Pune,75000,25127.42,17867.95,71.1,35,31-60 DPD,2024-06-15,Bounced,High
+CUST0470,Business,Delhi,25000,20622.17,16546.48,80.2,0,Current,2024-05-03,Pending,Low
+CUST0471,Self-Employed,Bangalore,200000,109527.11,32376.72,29.6,65,60+ DPD,2024-01-14,Pending,Low
+CUST0472,Business,Pune,200000,199055.67,162432.35,81.6,0,Current,2024-10-25,Pending,High
+CUST0473,Salaried,Ahmedabad,100000,91587.39,61534.68,67.2,0,Current,2024-11-22,Pending,High
+CUST0474,Business,Ahmedabad,75000,14088.21,1802.5,12.8,0,Current,2024-04-02,Bounced,High
+CUST0475,Self-Employed,Bangalore,200000,36073.97,12816.48,35.5,15,1-30 DPD,2024-06-20,Cleared,Medium
+CUST0476,Business,Hyderabad,150000,54696.9,46558.76,85.1,0,Current,2024-05-13,Pending,High
+CUST0477,Self-Employed,Hyderabad,100000,90048.35,45067.16,50.0,35,31-60 DPD,2024-02-06,Cleared,Medium
+CUST0478,Business,Bangalore,50000,11181.44,2239.6,20.0,0,Current,2024-01-28,Bounced,Medium
+CUST0479,Business,Mumbai,25000,13470.57,8500.37,63.1,0,Current,2024-04-02,Bounced,Medium
+CUST0480,Self-Employed,Ahmedabad,50000,39253.7,6618.4,16.9,15,1-30 DPD,2024-05-20,Bounced,Low
+CUST0481,Self-Employed,Mumbai,100000,67013.88,27032.96,40.3,90,60+ DPD,2024-11-10,Bounced,High
+CUST0482,Business,Pune,200000,87158.25,1226.94,1.4,0,Current,2024-04-12,Bounced,High
+CUST0483,Self-Employed,Pune,200000,152048.58,34403.38,22.6,35,31-60 DPD,2024-01-03,Bounced,Medium
+CUST0484,Self-Employed,Bangalore,150000,56325.54,3677.33,6.5,0,Current,2024-09-14,Pending,High
+CUST0485,Self-Employed,Bangalore,150000,60607.75,53818.11,88.8,90,60+ DPD,2024-11-01,Cleared,Low
+CUST0486,Salaried,Chennai,100000,11721.23,2629.32,22.4,90,60+ DPD,2024-03-25,Bounced,High
+CUST0487,Self-Employed,Chennai,50000,10542.29,7496.73,71.1,15,1-30 DPD,2024-09-15,Cleared,High
+CUST0488,Salaried,Mumbai,25000,15863.29,760.81,4.8,0,Current,2024-11-15,Pending,Low
+CUST0489,Salaried,Pune,100000,44222.84,24202.38,54.7,0,Current,2024-08-01,Pending,High
+CUST0490,Self-Employed,Hyderabad,25000,9275.12,6137.02,66.2,0,Current,2024-11-18,Pending,High
+CUST0491,Salaried,Delhi,100000,84758.74,8892.4,10.5,15,1-30 DPD,2024-03-11,Bounced,Low
+CUST0492,Salaried,Delhi,50000,32405.08,25209.82,77.8,35,31-60 DPD,2024-09-11,Pending,Medium
+CUST0493,Self-Employed,Delhi,50000,6773.26,3361.94,49.6,0,Current,2024-05-31,Bounced,Low
+CUST0494,Self-Employed,Pune,200000,36020.51,3977.78,11.0,0,Current,2024-01-07,Bounced,High
+CUST0495,Self-Employed,Delhi,200000,150243.72,135937.42,90.5,0,Current,2024-02-08,Cleared,Medium
+CUST0496,Self-Employed,Ahmedabad,25000,20796.51,18179.07,87.4,35,31-60 DPD,2024-01-26,Pending,Medium
+CUST0497,Salaried,Ahmedabad,200000,40862.19,34783.77,85.1,35,31-60 DPD,2024-08-06,Bounced,High
+CUST0498,Self-Employed,Chennai,50000,19789.74,17702.47,89.5,65,60+ DPD,2024-11-27,Bounced,Medium
+CUST0499,Self-Employed,Chennai,50000,10122.44,4051.51,40.0,0,Current,2024-06-24,Cleared,Medium
+CUST0500,Salaried,Mumbai,50000,10087.55,7022.65,69.6,0,Current,2024-11-28,Cleared,High
