@@ -63,13 +63,13 @@ credit-card-risk-analytics/
 ## Dashboard Preview
 
 ### Executive Dashboard
-![Executive Dashboard](dashboard/screenshots/executive_dashboard.png)
+![Executive Dashboard](dashboard/A.png)
 
 ### Risk Monitoring Dashboard
-![Risk Monitoring](dashboard/screenshots/risk_monitoring_dashboard.png)
+![Risk Monitoring](dashboard/B.png)
 
 ### Collection Dashboard
-![Collection Dashboard](dashboard/screenshots/collection_dashboard.png)
+![Collection Dashboard](dashboard/C.png)
 
 ## Key Insights
 
