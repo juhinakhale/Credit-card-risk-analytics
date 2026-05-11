@@ -1,7 +1,7 @@
 # Credit Card Repayment Analytics & Risk Monitoring
 
 ![Python](https://img.shields.io/badge/Python-Data%20Analytics-blue)
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
 ![Fintech](https://img.shields.io/badge/Domain-Fintech-green)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
