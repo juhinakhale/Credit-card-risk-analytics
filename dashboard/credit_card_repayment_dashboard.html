@@ -1,0 +1,157 @@
+
+<h2 class="sr-only">Credit card repayment analytics and risk monitoring dashboard showing KPIs, monthly trends, DPD bucket distribution, and city-level delinquency</h2>
+
+<style>
+.db-header{padding:1rem 0 0.5rem;border-bottom:0.5px solid var(--color-border-tertiary);margin-bottom:1rem}
+.db-title{font-size:18px;font-weight:500;color:var(--color-text-primary);margin:0}
+.db-sub{font-size:12px;color:var(--color-text-secondary);margin:2px 0 0}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:1rem}
+.kpi{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:0.85rem 1rem}
+.kpi-label{font-size:11px;color:var(--color-text-secondary);margin:0 0 4px;text-transform:uppercase;letter-spacing:.04em}
+.kpi-val{font-size:22px;font-weight:500;color:var(--color-text-primary);margin:0}
+.kpi-val.warn{color:#BA7517}
+.kpi-val.danger{color:#A32D2D}
+.kpi-val.good{color:#3B6D11}
+.charts-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.chart-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem}
+.chart-card.full{grid-column:1/-1}
+.chart-title{font-size:13px;font-weight:500;color:var(--color-text-primary);margin:0 0 12px}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:11px;color:var(--color-text-secondary);margin-bottom:8px}
+.legend span{display:flex;align-items:center;gap:4px}
+.leg-dot{width:10px;height:10px;border-radius:2px;display:inline-block}
+</style>
+
+<div class="db-header">
+  <p class="db-title">Credit Card Repayment Analytics & Risk Monitoring</p>
+  <p class="db-sub">FY 2024 — 500 customers — Power BI | SQL | Fintech Analytics</p>
+</div>
+
+<div class="kpi-grid">
+  <div class="kpi"><p class="kpi-label">Avg repayment rate</p><p class="kpi-val warn">50.4%</p></div>
+  <div class="kpi"><p class="kpi-label">Delinquency rate</p><p class="kpi-val danger">33.0%</p></div>
+  <div class="kpi"><p class="kpi-label">Bounce cases</p><p class="kpi-val danger">172</p></div>
+  <div class="kpi"><p class="kpi-label">High risk customers</p><p class="kpi-val danger">184</p></div>
+</div>
+
+<div class="charts-row">
+  <div class="chart-card full">
+    <p class="chart-title">Monthly repayment rate vs delinquency % — Jan to Dec 2024</p>
+    <div class="legend">
+      <span><span class="leg-dot" style="background:#185FA5"></span>Repayment rate %</span>
+      <span><span class="leg-dot" style="background:#A32D2D;border:1px dashed #A32D2D;background:transparent;outline:2px dashed #A32D2D;outline-offset:-2px"></span>Delinquency %</span>
+    </div>
+    <div style="position:relative;width:100%;height:200px">
+      <canvas id="c1" role="img" aria-label="Line chart showing monthly repayment rate rising from 78% in Jan to 85% in Dec 2024, while delinquency falls from 22% to 15%">Repayment rate improved from 78.4% in January to 85.3% in December 2024. Delinquency fell from 21.6% to 14.7%.</canvas>
+    </div>
+  </div>
+
+  <div class="chart-card">
+    <p class="chart-title">DPD bucket distribution</p>
+    <div class="legend">
+      <span><span class="leg-dot" style="background:#3B6D11"></span>Current</span>
+      <span><span class="leg-dot" style="background:#BA7517"></span>1–30 DPD</span>
+      <span><span class="leg-dot" style="background:#D85A30"></span>31–60 DPD</span>
+      <span><span class="leg-dot" style="background:#A32D2D"></span>60+ DPD</span>
+    </div>
+    <div style="position:relative;width:100%;height:180px">
+      <canvas id="c2" role="img" aria-label="Doughnut chart showing 335 current customers, 64 in 1-30 DPD, 48 in 31-60 DPD, 53 in 60+ DPD">DPD buckets: Current 335, 1-30 DPD 64, 31-60 DPD 48, 60+ DPD 53.</canvas>
+    </div>
+  </div>
+
+  <div class="chart-card">
+    <p class="chart-title">Avg repayment rate by customer segment</p>
+    <div style="position:relative;width:100%;height:180px">
+      <canvas id="c3" role="img" aria-label="Horizontal bar chart showing repayment rates: Business 49.3%, Salaried 50.8%, Self-Employed 50.9%">Repayment by segment: Business 49.3%, Salaried 50.8%, Self-Employed 50.9%.</canvas>
+    </div>
+  </div>
+
+  <div class="chart-card full">
+    <p class="chart-title">Bounce cases vs resolved cases by month</p>
+    <div class="legend">
+      <span><span class="leg-dot" style="background:#185FA5"></span>Bounce cases</span>
+      <span><span class="leg-dot" style="background:#3B6D11"></span>Resolved cases</span>
+    </div>
+    <div style="position:relative;width:100%;height:180px">
+      <canvas id="c4" role="img" aria-label="Grouped bar chart showing bounce cases and resolved cases each month of 2024">Monthly bounce vs resolved comparison for 2024.</canvas>
+    </div>
+  </div>
+
+  <div class="chart-card full">
+    <p class="chart-title">Delinquency % by city</p>
+    <div style="position:relative;width:100%;height:180px">
+      <canvas id="c5" role="img" aria-label="Bar chart showing delinquency rates by city: Ahmedabad highest at 42.9%, Pune lowest at 25.4%">City delinquency: Ahmedabad 42.9%, Delhi 34.3%, Bangalore 35.7%, Hyderabad 32.1%, Chennai 30.3%, Mumbai 28.8%, Pune 25.4%.</canvas>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const repRate = [78.4,78.1,78.5,75.8,78.2,78.8,79.2,82.4,82.9,85.2,82.6,85.3];
+const delinq  = [21.6,21.9,21.5,24.2,21.8,21.2,20.8,17.6,17.1,14.8,17.4,14.7];
+const bounces = [56,42,51,36,56,59,44,59,50,40,34,25];
+const resolved= [49,40,28,28,51,32,26,30,40,27,34,19];
+
+new Chart(document.getElementById('c1'),{
+  type:'line',
+  data:{labels:months,datasets:[
+    {label:'Repayment %',data:repRate,borderColor:'#185FA5',backgroundColor:'rgba(24,95,165,0.08)',tension:.35,fill:true,pointRadius:3,pointBackgroundColor:'#185FA5'},
+    {label:'Delinquency %',data:delinq,borderColor:'#A32D2D',borderDash:[5,4],tension:.35,fill:false,pointRadius:3,pointBackgroundColor:'#A32D2D'}
+  ]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{
+    x:{grid:{color:'rgba(128,128,128,0.1)'},ticks:{font:{size:11},autoSkip:false,maxRotation:0}},
+    y:{grid:{color:'rgba(128,128,128,0.1)'},ticks:{font:{size:11},callback:v=>v+'%'},min:10,max:95}
+  }}
+});
+
+new Chart(document.getElementById('c2'),{
+  type:'doughnut',
+  data:{labels:['Current','1–30 DPD','31–60 DPD','60+ DPD'],datasets:[{
+    data:[335,64,48,53],
+    backgroundColor:['#3B6D11','#BA7517','#D85A30','#A32D2D'],
+    borderWidth:2,borderColor:'var(--color-background-primary)'
+  }]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},cutout:'62%'}
+});
+
+new Chart(document.getElementById('c3'),{
+  type:'bar',
+  data:{labels:['Business','Salaried','Self-Employed'],datasets:[{
+    data:[49.3,50.8,50.9],
+    backgroundColor:['#378ADD','#185FA5','#0C447C'],
+    borderRadius:4,borderWidth:0
+  }]},
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{
+    x:{grid:{color:'rgba(128,128,128,0.1)'},ticks:{font:{size:11},callback:v=>v+'%'},min:40,max:60},
+    y:{grid:{display:false},ticks:{font:{size:11}}}
+  }}
+});
+
+new Chart(document.getElementById('c4'),{
+  type:'bar',
+  data:{labels:months,datasets:[
+    {label:'Bounce',data:bounces,backgroundColor:'#185FA5',borderRadius:3,borderWidth:0},
+    {label:'Resolved',data:resolved,backgroundColor:'#3B6D11',borderRadius:3,borderWidth:0}
+  ]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{
+    x:{grid:{display:false},ticks:{font:{size:11},autoSkip:false,maxRotation:0}},
+    y:{grid:{color:'rgba(128,128,128,0.1)'},ticks:{font:{size:11}}}
+  }}
+});
+
+const cities=['Ahmedabad','Delhi','Bangalore','Hyderabad','Chennai','Mumbai','Pune'];
+const cityDel=[42.9,34.3,35.7,32.1,30.3,28.8,25.4];
+const sorted=cities.map((c,i)=>({c,v:cityDel[i]})).sort((a,b)=>b.v-a.v);
+new Chart(document.getElementById('c5'),{
+  type:'bar',
+  data:{labels:sorted.map(x=>x.c),datasets:[{
+    data:sorted.map(x=>x.v),
+    backgroundColor:sorted.map(x=>x.v>40?'#A32D2D':x.v>35?'#D85A30':x.v>30?'#BA7517':'#3B6D11'),
+    borderRadius:4,borderWidth:0
+  }]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{
+    x:{grid:{display:false},ticks:{font:{size:11}}},
+    y:{grid:{color:'rgba(128,128,128,0.1)'},ticks:{font:{size:11},callback:v=>v+'%'},min:0,max:55}
+  }}
+});
+</script>
